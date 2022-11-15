@@ -11,6 +11,11 @@
 		5870960E290BAF25002B0D64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870960D290BAF25002B0D64 /* ContentView.swift */; };
 		58709610290BAF27002B0D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870960F290BAF27002B0D64 /* Assets.xcassets */; };
 		58709613290BAF27002B0D64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58709612290BAF27002B0D64 /* Preview Assets.xcassets */; };
+		5875DA402923ACFF00B9ADD1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875DA3F2923ACFF00B9ADD1 /* HomeView.swift */; };
+		5875DA422923AEFB00B9ADD1 /* MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875DA412923AEFB00B9ADD1 /* MessageList.swift */; };
+		5875DA442923B04000B9ADD1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875DA432923B04000B9ADD1 /* Message.swift */; };
+		5875DA462923B44900B9ADD1 /* MessagRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875DA452923B44900B9ADD1 /* MessagRow.swift */; };
+		5875DA482923B7BA00B9ADD1 /* MessageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875DA472923B7BA00B9ADD1 /* MessageDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		5870960D290BAF25002B0D64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5870960F290BAF27002B0D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58709612290BAF27002B0D64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5875DA3F2923ACFF00B9ADD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5875DA412923AEFB00B9ADD1 /* MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageList.swift; sourceTree = "<group>"; };
+		5875DA432923B04000B9ADD1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5875DA452923B44900B9ADD1 /* MessagRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagRow.swift; sourceTree = "<group>"; };
+		5875DA472923B7BA00B9ADD1 /* MessageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				5870960B290BAF25002B0D64 /* WXWeChatApp.swift */,
+				5875DA432923B04000B9ADD1 /* Message.swift */,
+				5875DA3F2923ACFF00B9ADD1 /* HomeView.swift */,
+				5875DA412923AEFB00B9ADD1 /* MessageList.swift */,
+				5875DA452923B44900B9ADD1 /* MessagRow.swift */,
+				5875DA472923B7BA00B9ADD1 /* MessageDetail.swift */,
 				5870960D290BAF25002B0D64 /* ContentView.swift */,
 				5870960F290BAF27002B0D64 /* Assets.xcassets */,
 				58709611290BAF27002B0D64 /* Preview Content */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5875DA402923ACFF00B9ADD1 /* HomeView.swift in Sources */,
+				5875DA422923AEFB00B9ADD1 /* MessageList.swift in Sources */,
+				5875DA442923B04000B9ADD1 /* Message.swift in Sources */,
 				5870960E290BAF25002B0D64 /* ContentView.swift in Sources */,
+				5875DA462923B44900B9ADD1 /* MessagRow.swift in Sources */,
 				5870960C290BAF25002B0D64 /* WXWeChatApp.swift in Sources */,
+				5875DA482923B7BA00B9ADD1 /* MessageDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
